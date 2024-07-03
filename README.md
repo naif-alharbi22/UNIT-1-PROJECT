@@ -1,40 +1,81 @@
-# UNIT-1-PROJECT
+
+# Electronic Library Backend
+
+# Project Description
+## The Electronic Library Backend is a web application designed to facilitate the purchase and download of books. Users can browse a collection of books, make purchases securely, and download their purchased books. The backend system handles user authentication, book catalog management, payment processing, and book download functionalities.
+
+# Package used
+```
+Package         Version
+--------------- -----------
+art             6.2
+colorama        0.4.6
+matplotlib      3.9.0
+```
+
+# Running the Project
+- Run cone to load the project with this command
+```
+git clone https://github.com/naif-alharbi22/UNIT-1-PROJECT.git
+cd UNIT-1-PROJECT
+python main.py
+```
+- Download the following libraries with their respective versions to ensure they work well 
+```
+Package         Version
+--------------- -----------
+art             6.2
+colorama        0.4.6
+matplotlib      3.9.0
+```
+- Open the main.py file, run it, and enjoy
 
 
+# Technologies used
+- Folder StructOTP system via email verification: used during purchase, data modification and login to enhance security.
+- User Authentication: A secure user login and registration system.
+- Book Catalog Management: Allows administrators to add books to the catalog.
+- Payment Processing: Securely handles payment transactions for book purchases.
+- Book Download Functions: Enables users to download their purchased books in PDF format.
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
+# Folder Structure
+```
+project/
+│
+├── classes/
+│   ├── Functions.py
+│   ├── functions_admin.py
+│   └── UserUtilities.py
+│
+├── Email_pages/
+│   ├── Email_login_page.html
+│   ├── pay_page.html
+│   └── send_code_edit.html
+│   └── send_book.html
+|
+├── books/
+│   |Here are the books
+|
+├── Databases/
+│   ├── Users.json
+│   ├── session.json
+│   └── Libraries.json
+│   └── admin.json
+|   └── book.json
+|   └── category.json
+│   └── orders.json
+│   └── Payment_card.json
+├── main.py
+├── main_admin.py
+├── requirements.txt
+└── README.md
+```
+# Install dependencies
+```
+pip install -r requirements.txt
+```
 
-- Must be interactive on CLI.
-- Use your coding skills in Python accurately.
-- Organize Your Code into modules & (or packages)
-
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
-
-
-
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
-
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+# Contact
+```
+Email:naif.n1158@gmail.com
+```

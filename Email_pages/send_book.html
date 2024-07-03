@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        .book-details {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Book is Here!</h2>
+        <div class="book-details">
+            <p><strong>Book Title:</strong> %BOOK_TITLE%</p>
+            
+        </div>
+        <p>Dear %USER%,</p>
+        <p>We are excited to send you a copy of "<strong>%BOOK_TITLE%</strong>" .</p>
+        <p>The book is attached to this email. We hope you enjoy reading it!</p>
+        <div class="footer">
+            <p>Best regards,<br>NAIF ALHARBI</p>
+        </div>
+    </div>
+</body>
+</html>

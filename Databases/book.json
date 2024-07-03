@@ -1,0 +1,53 @@
+{
+    "Fiction": [
+        {
+            "name_book": "To Kill a Mockingbird",
+            "description_book": "A classic American novel about racial injustice and the moral awakening of a young girl named Scout.",
+            "price": 12.99
+        },
+        {
+            "name_book": "The Great Gatsby",
+            "description_book": "A novel about the decadence and excess of the roaring 1920s in America.",
+            "price": 9.99
+        },
+        {
+            "name_book": "Brave New World",
+            "description_book": "A dystopian novel that explores the dangers of a highly controlled society.",
+            "price": 14.99
+        }
+    ],
+    "Non-Fiction": [
+        {
+            "name_book": "Sapiens: A Brief History of Humankind",
+            "description_book": "An overview of the history and evolution of humanity.",
+            "price": 17.99
+        },
+        {
+            "name_book": "Educated",
+            "description_book": "A memoir about a young woman's journey to education against the odds.",
+            "price": 13.99
+        },
+        {
+            "name_book": "Guns, Germs, and Steel",
+            "description_book": "An exploration of the historical factors that have shaped the modern world.",
+            "price": 14.99
+        }
+    ],
+    "Science Fiction": [
+        {
+            "name_book": "Dune",
+            "description_book": "A classic science fiction novel that explores themes of politics, religion, and the environment.",
+            "price": 9.99
+        },
+        {
+            "name_book": "Ender's Game",
+            "description_book": "A sci-fi novel about a young boy who is trained to lead an elite military force against an alien threat.",
+            "price": 8.99
+        },
+        {
+            "name_book": "Neuromancer",
+            "description_book": "A groundbreaking cyberpunk novel that explores the impact of technology on society.",
+            "price": 11.99
+        }
+    ]
+}
