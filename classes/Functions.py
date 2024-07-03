@@ -83,8 +83,9 @@ class UserUtilities:
         return colors 
     
     def send_email(User_email , User, path='Email_pages/Email_login_page.html',name_book=None , Validation_code=None ):
-        sender_email = 'naif.n1158@gmail.com' 
-        sender_password = 'wxfh iqwb pazh erqs' 
+        #Here the email and password are placed to send OTP messages and send books
+        sender_email = 'your email' 
+        sender_password = 'Password' 
         with open(path, 'r') as file:
             html_content = file.read()
         
